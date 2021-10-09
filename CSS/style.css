@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal&family=Train+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: 'Train One';
+text-align: center;
+}
+.intro-image {
+    background-attachment: fixed;
+background-image: url('../img/img3.jpeg');
+background-size: cover;
+background-position: bottom;
+height: 600px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.intro-image__link a {
+background-color:#bc9e96c9;
+border: 2px solid #201e25;
+color: #563735;
+display: inline-block;
+font-size: 3rem;
+padding: 2rem;
+text-transform: uppercase;
+text-decoration: none;
+transition: all 1s ease-in-out;
+}
+
+.intro-image__link a:hover {
+transform: scale(1.1);
+}
+
+.intro-text {
+background-color:#a26757;
+height: 350px;
+font-family: 'Metal';
+color: #dbd4d8;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 15rem;
+}
+
+.intro-text__textbox h3 {
+font-size: 2rem;
+text-transform: uppercase;
+margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+height: 450px;
+background-image: url('../img/img2.jpeg');
+background-position: bottom;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.quality-image__link a {
+    background-color:#d2a87b9e;
+    border: 2px solid;
+    color: #1a1e26ab;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.quality-image__link a:hover {
+    transform: scale(1.1);
+    }
+
+    .quality-text{
+        background-color:#536a899f;
+        height: 350px;
+        font-family: 'Metal';
+        color: #dbd4d8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 15rem;
+
+    }
+
+    .quality-text__textbox h3 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        }
+
+
+.origin-image{
+    background-attachment: fixed;
+    height: 450px;
+    background-image: url('../img/img1.jpeg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-text{
+    background-color:#1628419f;
+    height: 350px;
+    font-family: 'Metal';
+    color: #babdca;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    font-size: 1
+    rem;
+
+}
+
+.origin-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+.footer{
+height: 250px;
+background-color: rgb(124, 122, 119);
+color: rgb(245, 240, 240);
+font-size: 2rem;
+padding-top: 2rem;
+font-family: fantasy;
+
+
+}
+
+.footer ul li {
+display: inline-block;
+margin: 1rem;
+}
+
+.footer ul li a{
+color: rgb(245, 240, 240) ;
+text-decoration: none;
+}
+
+.footer ul li:hover {    
+transform: scale(1.1);
+}
+
